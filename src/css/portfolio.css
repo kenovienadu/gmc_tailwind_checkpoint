@@ -21,19 +21,23 @@ header {
 .bg-primary {
   background-color: purple;
   background-color: #212F32;
-  background-color: #003A5C;
+  /* background-color: #003A5C; */
   color: white;
 }
 
 .text-primary {
-  color: #003A5C;
+  color: #212F32;
 }
 
 .text-primary-light {
-  color: #077abcf2;
+  color: #5f8a93;
 }
 
 .bg-dark {
   background-color: #000000;
   color: white;
+}
+
+.projects-grid p {
+  line-height: 1.9em;
 }
