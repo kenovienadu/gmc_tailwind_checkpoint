@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+  <header class="sticky bg-primary top-0 py-6">
+    <div class="container flex justify-between items-center">
+      <div class="text-lg font-bold">MEETME</div>
+
+      <div class="hidden md:inline-flex gap-8">
+        <a class="font-medium text-gray-50" href="">Home</a>
+        <a class="font-medium text-gray-50" href="">About</a>
+        <a class="font-medium text-gray-50" href="">Services</a>
+        <a class="font-medium text-gray-50" href="">Pages</a>
+        <a class="font-medium text-gray-50" href="">Blog</a>
+        <a class="font-medium text-gray-50" href="">Contact</a>
+      </div>
+
+      <div class="inline md:hidden" >
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-primary">
+    <div class="container pt-[100px] md:h-[550px]">
+      <div class="bg-white rounded-lg p-[30px] md:flex items-center gap-[50px] shadow-lg">
+        <div class="md:w-[45%] mb-[30px] md:mb-0">
+          <img src="https://technext.github.io/meetme/img/personal.jpg" alt="">
+        </div>
+  
+        <div class="text-gray-800">
+          <div class="uppercase font-[300] mb-3">Hello Everybody, i am</div>
+          <div class="uppercase text-4xl font-[800] mb-4">Donald McKinney</div>
+          <div class="uppercase font-bold mb-4">Junior UI/UX Developer</div>
+          <p class="opacity-60 mb-10 md:w-[500px]">
+            You will begin to realise why this exercise is called the Dickens Pattern 
+            (with reference to the ghost showing Scrooge some different futures)
+          </p>
+
+          <div class="text-primary-light">
+            <div class="flex gap-4 items-center mb-[20px]">
+              <i class="fa-solid fa-calendar-days"></i>
+              <span class="text-gray-500">31st December, 1992</span>
+            </div>
+  
+            <div class="flex gap-4 items-center mb-[20px]">
+              <i class="fa-solid fa-phone"></i>
+              <span class="text-gray-500">44 (012) 6954 783</span>
+            </div>
+  
+            <div class="flex gap-4 items-center mb-[20px]">
+              <i class="fa-regular fa-envelope"></i>
+              <span class="text-gray-500">businessplan@donald</span>
+            </div>
+  
+            <div class="flex gap-4 items-center mb-[20px]">
+              <i class="fa-solid fa-house"></i>
+              <span class="text-gray-500">Santa monica bullevard</span>
+            </div>
+          </div>
+
+          <!-- <div class="flex gap-4 items-center mb-[20px]">
+            <i class="fa-solid fa-calendar-days"></i>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
