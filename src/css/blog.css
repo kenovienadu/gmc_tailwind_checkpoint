@@ -62,3 +62,7 @@ header {
 .pagination div {
   cursor: pointer;
 }
+
+footer {
+  background-color: #333333;
+}
