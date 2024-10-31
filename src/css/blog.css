@@ -1,0 +1,19 @@
+.container {
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.featured {
+  background-color: #F8F9FA;
+}
+
+.featured_item {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 8px;
+  padding: 30px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
