@@ -4,13 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog Website</title>
+
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="css/blog.css">
 </head>
 <body>
-  <header class="sticky top-0 py-6 container flex justify-between items-center">
+  <header class="sticky z-index-1 bg-gray-100 top-0 py-6 container flex justify-between items-center">
     <div class="text-lg font-bold">Mini Blog</div>
-    <div class="inline-flex gap-8">
+
+    <div class="hidden md:inline-flex gap-8">
       <a class="font-medium text-gray-400" href="">Home</a>
       <a class="font-medium text-gray-400" href="">Politics</a>
       <a class="font-medium text-gray-400" href="">Tech</a>
@@ -18,11 +26,15 @@
       <a class="font-medium text-gray-400" href="">Travel</a>
       <a class="font-medium text-gray-400" href="">Sports</a>
     </div>
+
+    <div class="inline md:hidden" >
+      <i class="fa-solid fa-bars"></i>
+    </div>
   </header>
 
-  <section id="featured" class="featured py-[70px]" >
-    <div class="grid grid-cols-3 gap-[20px] container ">
-      <div class="grid grid-cols-1 gap-[20px]">
+  <section id="featured" class="featured py-8 md:py-[70px]" >
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-[20px] container ">
+      <div class="hidden md:grid grid-cols-1 gap-[20px]">
         <div class="h-[200px] featured_item">
           <p class="mb-2">The AI magically removes moving objects from videos</p>
           <p class="text-gray-500">July 19, 2020</p>

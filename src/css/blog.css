@@ -2,6 +2,8 @@
   max-width: 1200px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .featured {
