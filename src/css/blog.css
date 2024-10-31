@@ -63,6 +63,7 @@ header {
   cursor: pointer;
 }
 
-footer {
+.bg-dark {
   background-color: #333333;
+  color: white;
 }
